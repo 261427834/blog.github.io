@@ -1,0 +1,25 @@
+{
+  "name": "blog.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "normalize.css": "^7.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/261427834/blog.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/261427834/blog.github.io/issues"
+  },
+  "homepage": "https://github.com/261427834/blog.github.io#readme"
+}

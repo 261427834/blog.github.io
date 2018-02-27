@@ -2,3 +2,7 @@ h1{
 	font-family: "微软雅黑";
 	color:#eee ;
 }
+#nav li {
+	display: inline;
+	color: #fff;
+}

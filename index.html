@@ -4,36 +4,66 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<<<<<<< HEAD
-	<!--
-    	作者：songyan130@163.com
-    	时间：2018-01-22
-    	描述：
-    <style type="text/css">
-		h1{
+<style type="text/css">
+	h1{
 	font-family: "微软雅黑";
 	color:#eee ;
 }
-
-	</style>-->
-	<link rel="stylesheet" type="text/css" href="css/main.css"/>
-	<link rel="stylesheet" type="text/css" href="../node_modules/normalize.css/normalize.css"/>
-
-=======
-	<style media="screen">
-
-	</style>
-	<link rel="stylesheet" href="/css/main.css" media="screen" title="no title" charset="utf-8">
->>>>>>> 6ede5de73c589097d189b1439cdebabe13fac713
+#nav{
+	margin: 20px auto;
+	width: 500px;
+	height: 50px;
+}
+#nav li {
+	display: inline;
+	
+	
+}
+a 
+ { font-family: "微软雅黑";
+ font-weight: 700;
+	color: #000;
+	text-align: center;
+	text-decoration: none;
+	
+	padding: 10px;
+	
+	
+	
+}
+a:hover{
+	color: #eee;
+	font-size: medium;
+}
+</style>
+<!-- 引入这些文件至 <head> 中 -->
+<link rel="stylesheet" href="css/responsive-nav.css">
+<link rel="stylesheet" href="css/main.css">
+<script src="js/responsive-nav.js"></script>
 	<title>欢迎来到沐沐家！</title>
+	
 </head>
 <body>
-	<h1>欢迎来到沐沐家！</h1>
-<<<<<<< HEAD
+	<div id="nav">
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Projects</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</div>
 
-=======
+<hr />
+	<h1>欢迎来到沐沐家！</h1> 
 	
->>>>>>> 6ede5de73c589097d189b1439cdebabe13fac713
 
+
+
+	
+
+<!-- 将下面这段代码放置在 </body> 之前 ，启用插件-->
+<script>
+  var navigation = responsiveNav("#nav");
+</script>
 </body>
 </html>

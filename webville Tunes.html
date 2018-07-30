@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>webville Tunes</title>
+		
+	</head>
+	<body>
+		<form action="">
+			<input type="text" name="" id="songTextInput" size="40" placeholder="SongName" />
+			<input type="button" name="addButtom" id="addButtom" value="AddSong" />
+		</form>
+		<ul id="playlist">
+			
+		</ul>
+		<script type="text/javascript">
+			
+			window.onload =init;
+			function init(){
+			var button=document.getElementById("addButtom");
+			button.onclick=handleButtonClick();
+			}
+			function handleButtonClick(){
+				var textInput=document.getElementById("songTextInput");
+			var SongName=textInput.value;
+			if (SongName== "") {
+				console.log("Please enter a song")
+				
+			} else{
+				console.log("Adding"+ SongName );
+			}
+			}
+			
+		</script>
+	</body>
+</html>

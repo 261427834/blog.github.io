@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<style type="text/css">
+	h1{
+	font-family: "微软雅黑";
+	color:#eee ;
+}
+#nav{
+	margin: 20px auto;
+	width: 500px;
+	height: 50px;
+}
+#nav li {
+	display: inline;
+	
+	
+}
+a 
+ { font-family: "微软雅黑";
+ font-weight: 700;
+	color: #000;
+	text-align: center;
+	text-decoration: none;
+	
+	padding: 10px;
+	
+	
+	
+}
+a:hover{
+	color: #eee;
+	font-size: medium;
+}
+</style>
+<!-- 引入这些文件至 <head> 中 -->
+<link rel="stylesheet" href="css/responsive-nav.css">
+<link rel="stylesheet" href="css/main.css">
+<script src="js/responsive-nav.js"></script>
+	<title>欢迎来到沐沐家！</title>
+	
+</head>
+<body>
+	<div id="nav">
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Projects</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</div>
+
+<hr />
+	<h1>欢迎来到沐沐家！</h1> 
+	
+
+
+
+	
+
+<!-- 将下面这段代码放置在 </body> 之前 ，启用插件-->
+<script>
+  var navigation = responsiveNav("#nav");
+</script>
+</body>
+</html>
